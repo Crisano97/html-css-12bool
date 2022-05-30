@@ -1,17 +1,8 @@
-[class*="col-"], .col{
+[class*="col-"] {
     color: white;
     border: 1px solid white;
     text-align: center;
     padding: 20px 0;
- }
-
- .container-fluid {
-    margin-top: 20px;
- }
-
- .container-fluid span {
-    font-weight: bold;
-    font-size: 20px;
  }
 
  .row{
@@ -19,10 +10,5 @@
  }
 
  .nested {
-     padding: 0 10px
- }
-
- .row .bg-active {
-     background-color: #00e165;
-
+     padding: 0 10px;
  }

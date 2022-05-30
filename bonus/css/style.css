@@ -1,0 +1,29 @@
+[class*="col-"] {
+    color: white;
+    border: 1px solid white;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 10px;
+ }
+
+ .c-bg {
+    background-color: #006cfa;
+
+}
+
+ .nested {
+     padding: 0 10px;
+ }
+
+ .nested div {
+     padding: 20px 0;
+ }
+
+
+ .p-t-b {
+    padding: 20px 0;
+}
+
+.p-big {
+    padding: 40px 0;
+}

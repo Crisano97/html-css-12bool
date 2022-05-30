@@ -35,7 +35,9 @@
     margin: 20px 0;
 }
 
-
+.a-content {
+    flex-direction: column;
+}
 
 .f-s-w {
     font-size: 20px;
@@ -44,6 +46,10 @@
 
 .bg-active {
     background-color: #00e165;
+}
+
+.d-h {
+    height: 50%;
 }
 /* 12 system */
 

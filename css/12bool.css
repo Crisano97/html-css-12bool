@@ -35,6 +35,10 @@
     margin: 20px 0;
 }
 
+.p-t-b {
+    padding: 20px 0;
+}
+
 .f-s-w {
     font-size: 20px;
     font-weight: bold;

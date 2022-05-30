@@ -25,5 +25,25 @@
 }
 
 .p-big {
-    padding: 40px 0;
+    padding: 40px 15px;
+}
+
+.a-top {
+    align-items: flex-start;
+}
+
+.a-center {
+    align-items: center;
+}
+
+.a-bottom {
+    align-items: flex-end;
+}
+
+.sp-a {
+    justify-content: space-around;
+}
+
+.sp-b {
+    justify-content: space-between;
 }

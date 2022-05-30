@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,10 +9,11 @@
     <link rel="stylesheet" href="./css/12bool.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
 
     <div class="container-fluid">
-        <span class="f-s-w">Nested</span>
+        <h1>Nested</h1>
         <div class="row c-bg">
             <div class="col-6 col-sm-6 col-md-7 col-lg-7">
                 <div class="nested row">
@@ -29,17 +31,41 @@
         </div>
     </div>
     <dov class="container-fluid">
-        <span class="f-s-w">Alignment</span>
+        <h1>Alignment</h1>
         <div class="row a-content">
             <div class="c-bg p-t-b col-lg-6">start</div>
-            <div class="c-bg p-t-b col-lg-6 col-lg-offset-3">start</div>
-            <div class="c-bg p-t-b col-lg-6 col-lg-offset-6">start</div>
+            <div class="c-bg p-t-b col-lg-6 col-lg-offset-3">center</div>
+            <div class="c-bg p-t-b col-lg-6 col-lg-offset-6">end</div>
         </div>
-        <div class="row">
+        <div class="row a-top">
             <div class="p-big col-lg-6 c-bg"></div>
-            <div class="d-h col-lg-6 c-bg p-t-b"></div>
+            <div class="col-lg-6 c-bg p-t-b">top</div>
+        </div>
+        <div class="row a-center">
+            <div class="p-big col-lg-6 c-bg"></div>
+            <div class="col-lg-6 c-bg p-t-b">middle</div>
+        </div>
+        <div class="row a-bottom">
+            <div class="p-big col-lg-6 c-bg"></div>
+            <div class="col-lg-6 c-bg p-t-b">bottom</div>
         </div>
     </dov>
-    
+    <div class="container-fluid">
+        <h1>Justify Content</h1>
+        <h2>Space around</h2>
+        <div class="row c-bg sp-a p-big">
+            <div class="bg-active col-lg-3 p-t-b"></div>
+            <div class="bg-active col-lg-3 p-t-b"></div>
+            <div class="bg-active col-lg-3 p-t-b"></div>
+        </div>
+        <h2>Space between</h2>
+        <div class="row c-bg sp-b p-big">
+            <div class="bg-active col-lg-3 p-t-b"></div>
+            <div class="bg-active col-lg-3 p-t-b"></div>
+            <div class="bg-active col-lg-3 p-t-b"></div>
+        </div>
+    </div>
+
 </body>
+
 </html>
